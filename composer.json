@@ -1,0 +1,22 @@
+{
+    "name": "stati/avatar",
+    "description": "An Avatar plugin for Stati",
+    "authors": [
+        {
+            "name": "jfoucher",
+            "email": "jfoucher@6px.eu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Stati\\Plugin\\Avatar\\": "src/", "Stati\\Plugin\\Feed\\Avatar\\": "tests/"}
+    },
+    "require": {
+        "php": "^7.0"
+    },
+    "suggest": {
+        "stati/stati": "An extensible, jekyll-compatible PHP static site generator"
+    },
+    "bin": ["build/avatar.phar"],
+    "license": "MIT",
+    "homepage": "https://stati.jfoucher.com"
+}
